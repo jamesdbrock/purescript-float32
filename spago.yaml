@@ -1,0 +1,21 @@
+package:
+  name: float32
+  publish:
+    license: BSD-3-Clause
+    version: 2.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-float32
+  dependencies:
+    - gen
+    - maybe
+    - prelude
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+      - effect
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
